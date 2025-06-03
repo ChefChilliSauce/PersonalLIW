@@ -29,9 +29,10 @@ function ProgressBar(props) {
   return (
     <div className="max-w-3xl mx-auto px-6 mb-8">
       <div className="relative">
-        <span className="absolute left-4 top-1/2 -translate-y-1/2 font-bold text-white text-lg z-10 pointer-events-none">
-          {value}% of Life lived
+        <span className="absolute left-4 top-1/2 -translate-y-1/2 font-bold text-white text-base sm:text-lg z-10 pointer-events-none">
+          {value}%<span className="hidden sm:inline"> of Life lived</span>
         </span>
+
         <BorderLinearProgress variant="determinate" value={value} />
       </div>
     </div>

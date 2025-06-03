@@ -8,12 +8,16 @@ function Intro() {
       </h1>
       <p className="text-lg text-gray-700 leading-relaxed select-none">
         This page is my personal timeline—every square you see below stands for
-        one week of my life since October 30, 2001. The blue squares show the
+        one week of my life since October 30, 2001. The green squares show the
         weeks I’ve already lived; the gray ones represent the future that’s
         still open to me. Key milestones—moments that shaped my journey—are
         highlighted for quick reflection. It’s a simple way to zoom out, see how
         far I’ve come, and remind myself just how many stories, memories, and
-        opportunities fit into a lifetime.
+        opportunities fit into a lifetime. <br />
+        <b>
+          On touchscreens, press and hold the highlighted squares to see more
+          details about those milestones.
+        </b>
         <br />
         Inspired by Tim Urban’s{" "}
         <a
