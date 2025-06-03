@@ -116,9 +116,9 @@ function TooltipHover(props) {
         >
           <div
             key={props.index}
-            className="w-[15px] h-[15px] bg-blue-400 border"
+            className="w-[15px] h-[15px] bg-blue-400 dark:bg-blue-500 border"
             onContextMenu={(e) => e.preventDefault()}
-          ></div>
+          />
         </Tooltip>
       );
     } else {
@@ -137,9 +137,9 @@ function TooltipHover(props) {
         >
           <div
             key={props.index}
-            className="w-[15px] h-[15px] bg-green-400 border"
+            className="w-[15px] h-[15px] bg-green-400 dark:bg-green-500 border"
             onContextMenu={(e) => e.preventDefault()}
-          ></div>
+          />
         </Tooltip>
       );
     }
@@ -149,9 +149,9 @@ function TooltipHover(props) {
     return (
       <div
         key={props.index}
-        className="w-[15px] h-[15px] bg-gray-200 border"
+        className="w-[15px] h-[15px] bg-gray-200 dark:bg-gray-500 border"
         onContextMenu={(e) => e.preventDefault()}
-      ></div>
+      />
     );
   }
 
