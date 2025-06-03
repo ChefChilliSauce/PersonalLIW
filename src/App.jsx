@@ -1,8 +1,8 @@
 import Footer from "./components/Footer";
 import Grid from "./components/Grid";
 import Header from "./components/Header";
-import Intro from "./components/intro";
-import ProgressBar from "./components/progressbar";
+import ProgressBar from "./components/ProgressBar";
+import Intro from "./components/Intro";
 
 function App() {
   const dateToday = new Date();
