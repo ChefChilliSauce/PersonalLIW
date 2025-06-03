@@ -22,7 +22,7 @@ function TooltipHover(props) {
         <Tooltip
           title={
             <div>
-              <div>Week number: {props.index + 1}</div>
+              <div>Week: {props.index + 1}</div>
               <div>
                 {startDate} - {endDate}
               </div>
